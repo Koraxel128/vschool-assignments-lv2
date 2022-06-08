@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>Travel Form</header>
+
+    <form name="my-form">
+        <input type="text" name="firstName" placeholder="First Name"/>
+        <br>
+        <input type="text" name="lastName" placeholder="Last Name"/>
+        <br>
+        <input type="number" name="age" placeholder="Age"/>
+        <br>
+        Male: <input type="radio" name="gender" placeholder="Male" value="Male"/>
+        Female: <input type="radio" name="gender" placeholder="Female" value="Female"/>
+        <br>
+        Destination: <select name="location">
+            <option value="Moon">Moon</option>
+            <option value="Sun">Sun</option>
+            <option value="Jupiter">Jupiter</option>
+        </select>
+        <br>
+        Dietary Restrictions: 
+        Vegan <input type="checkbox" name="diet" placeholder="Vegan" value="Vegan"/>
+        Keto <input type="checkbox" name="diet" placeholder="Keto" value="Keto"/>
+        Photosynthesis <input type="checkbox" name="diet" placeholder="Photosynthesis" value="Photosynthesis"/>
+        <br>
+        <button name="submit">Submit</button>
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

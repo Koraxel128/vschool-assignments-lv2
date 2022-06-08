@@ -1,0 +1,27 @@
+
+header{
+    display: flex;
+    justify-content: center;
+
+
+}
+#goomba{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+}
+#bob-omb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+#cheep-cheep{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    width: auto;
+}

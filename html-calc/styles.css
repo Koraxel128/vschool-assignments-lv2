@@ -1,0 +1,59 @@
+*{
+    background-color: bisque;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:firebrick;
+    font-style:italic;
+    padding: 20px;
+    border: 5px, solid, black;
+    margin: 5px;
+    
+}
+#my-add-form{
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    padding: 5px;
+    border: 5px, solid, black;
+    margin: 5px;
+}
+#my-sub-form{
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    padding: 5px;
+    border: 5px, solid, black;
+    margin: 5px;
+}
+#my-mult-form{
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    padding: 5px;
+    border: 5px, solid, black;
+    margin: 5px;
+}
+#firstNumber{
+    background-color: blue;
+}
+#secondNumber{
+    background-color: brown;
+}
+#thirdNumber{
+    background-color: yellow
+}
+#fourthNumber{
+    background-color: green;
+}
+#fifthNumber{
+    background-color: purple;
+}
+#sixthNumber{
+    background-color: pink;
+}
